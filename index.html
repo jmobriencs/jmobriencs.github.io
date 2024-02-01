@@ -1,1 +1,288 @@
-"Hello World" 
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>JM O'Brien Porfolio Website</title>
+        <!-- linking css file -->
+        <link href="style.css" rel="stylesheet">
+        <!-- bootstrap CDN -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- font awesome -->
+        <script src="https://kit.fontawesome.com/aeccaca4ec.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg fixed-top navbarScroll">
+            <div class="container">
+                <a class="navbar-brand" style="color:white;" href="#">JM O'Brien</a>
+                <button class="navbar-toggler" type="button"  data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" style="color:white;" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color:white;" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color:white;" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color:white;" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" style="color:white;" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- main banner -->
+        <section class="bgimage" id="home">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero-text">
+                        <h2 class="hero_title">Hi, I'm JM!</h2>
+                        <p class="hero_desc">I am a programmer and professional musician from Long Beach, CA</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- about section-->
+        <section id="about">
+            <div class="container mt-4 pt-4">
+                <h1 class="text-center">About Me</h1>
+                <div class="row mt-4">
+                    <div class="col-lg-4">
+                        <img src="images/hawaiiPic.png" class= "imageAboutPage" alt="Picture of JM and his gf">
+                    </div>
+                    <div class="col-lg-8">
+                        <p><br> Hi! My name is JM and I am a musician, producer, and programmer from Long Beach, CA. I am a Software Engineer at PowerSchool, LLC in Folsom, CA. I hold degrees in both music and computer science. I am interested in audio software development and roles where I can combine my passion and skills in both music and programming.
+                        </p>
+                        <div class="row mt-3">
+                            <div class="col-md-6">
+                                <ul>
+                                    <li>Name: John-Michael O'Brien</li>
+                                    <li>Age: 29</li>
+                                    <li>Degrees: BM, Jazz Studies (Piano) - CSULB, 2017 <br> 
+                                        AS, Computer Science - Folsom Lake College, 2021
+                                    </li>
+                                    <li>Prior Occupation: Automation Engineer (Java/Selenium) w/ 2 years experience</li>
+                                    <li>Current Occupation: Software Engineer currently working in Python and SQL</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="row mt-3">
+                            <p> Outside of programming and music, I am an avid hiker, skateboarder, snowboarder, and gamer. I also have a sports/leadership background, with over 10 years of competitive volleyball coaching experience. I have an entrepreneurial mindset, having started my own business Belmont Shore Volleyball Club in 2017. In addition to playing and coaching indoor/beach volleyball, I also love playing and watching basketball. I currently live in Sacramento, CA with my amazing girlfriend of 8 years and our two labrador retrievers, Daisy and Molly. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- skills section-->
+        <section id="skills">
+            <div class="container">
+            <h1 class="text-center">Skills</h1>
+            <div class="row">
+                <div class="col-lg-4 mt-4">
+                    <div class="card skillsText">
+                        <div class="card-body">
+                            <i class="fas skillsIcon fa-solid fa-computer-mouse"></i>
+                            <h4 class="card-title mt-3">Programming</h4>
+                            <p class="card-text mt-3">I earned an AS in Computer Science from Folsom Lake College in May 2021. While I spend my days at work writing framework and test automation in Java, I also have experience in C++, Python, x86 Assembly Language, HTML, CSS, JavaScript and SQL. I am currently working on Java interview prep as I am planning to interview for software developer positions this year.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card skillsText">
+                        <div class="card-body">
+                            <i class='fas skillsIcon fa-solid fa-music'></i>
+                            <h4 class="card-title mt-3">Performance</h4>
+                            <p class="card-text mt-3">I earned a BM in Music Performance (Jazz Piano) from California State University, Long Beach in May 2017. While at <i>The Beach</i> I was the pianist for two of the top ensembles, the Studio Jazz Band and Pacific Standard Time, with whom I earned a Downbeat Award. Over the years I have been fortunate enough to perform at venues including: the Newport Beach Jazz Festival, Monterey Jazz Festival, SXSW, and the Playboy Jazz Festival at the Hollywood Bowl. I also have performed, recorded, and toured with several bands including Avi Buffalo, Leather Tramp, and Soular System.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mt-4">
+                    <div class="card skillsText">
+                        <div class="card-body">
+                            <i class='fas skillsIcon fa-regular fa-file-audio'></i>
+                            <h4 class="card-title mt-3">Production & Arranging</h4>
+                            <p class="card-text mt-3">In addition to being a keyboardist and vocalist, I also have experience producing, writing, and arranging music at the collegiate and professional levels. My DAW of choice is Logic Pro, and I use Sibelius whenever I am composing, arranging, or transcribing music. Some of my favorite genres to produce include:
+                                hip-hop, rap, funk, pop, electronic, and house music.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- portfolio section-->
+        <section id="portfolio">
+            <div class="container mt-3">
+            <h1 class="text-center">Portfolio</h1>
+            <div class="row">
+                <div class="col-lg-3 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/webDev.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Portfolio Website</h4>
+                            <p class="card-text">Link to the source code for this website. I built the site using HTML, CSS, JS, and Bootstrap5 as a way to practice front-end development as I hope to seek full-stack development job opportunities in the future. The site is currently being hosted for free on Replit.</p>
+                            <div class="text-center">
+                                <a href="https://replit.com/@jmobriencs/Portfolio-Website" target="_blank" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/javaDev.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Java Developer Course</h4>
+                            <p class="card-text">Link to a github repo which includes various coursework and projects from a Java developer course that I took through my current employer, PowerSchool. I took the course to solidify fundamentals and practice with Java in preparation for back-end development work.</p>
+                            <div class="text-center">
+                                <a href="https://github.com/jmobriencs/Java-Practice" target="_blank" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/GainSlider.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Audio Plugin (C++/JUCE)</h4>
+                            <p class="card-text">Link to a github repo for a simple VST/AU gain slider plugin I created using C++. This was my first project using the JUCE framework. In the future I hope to combine my music and CS degrees and experience into an audio/music software developer role.</p>
+                            <div class="text-center">
+                                <a href="https://github.com/jmobriencs/JUCE/tree/main/Gain%20Slider" target="_blank" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/onlineShoppingBot.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Stock Checker Bot</h4>
+                            <p class="card-text">Link to a github repo for a simple Python program I created that checks if an item is in stock. I was having a difficult time buying graphics cards during the pandemic, so I created this solution! If you set up a twilio account, you can also have the program send you a text when your item is in stock.</p>
+                            <div class="text-center">
+                                <a href="https://github.com/jmobriencs/Automation" target="_blank" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-3 mt-4">
+                    <div class="card">
+                        <img class="card-img-top" src="images/bobColeThumbnail.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Senior Recital</h4>
+                            <p class="card-text">My undergraduate senior recital at CSULB. All music was selected and arranged by yours truly.</p>
+                            <div class="text-center">
+                                <a href="https://www.youtube.com/watch?v=FVNHsWZWwkw" target="_blank" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/musicStudio.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Music Porfolio</h4>
+                            <p class="card-text">Some of my best tracks, arrangements, and transcriptions that I have created over the years.</p>
+                            <div class="text-center">
+                                <a href="https://drive.google.com/drive/folders/1MqU0H6juy1DKoWPaapJPut5i1NEuDpd5?usp=share_link"  target="_blank" class="btn btn-success">Link </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/leatherTrampThumbnail.jpg" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Leather Tramp the Band</h4>
+                            <p class="card-text">Our hit song <i>Strays</i>. You can listen to Leather Tramp streaming on all music platforms too.</p>
+                            <div class="text-center">
+                                <a href="https://www.youtube.com/watch?v=tJC7D5tu9G4" target="_blank" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 mt-4">
+                    <div class="card portfolioContent">
+                        <img class="card-img-top" src="images/JMPiano.png" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                            <h4 class="card-title">Solo Piano Performance</h4>
+                            <p class="card-text">Vince Guaraldi's <i>Christmas Time Is Here.</i> One of my all time favorite pieces.</p>
+                            <div class="text-center">
+                                <a href="https://www.youtube.com/watch?v=2ojLtds0R34" target="_blank" class="btn btn-success">Link</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- contact section-->
+        <section id="contact">
+            <div class="container mt-3 contactContent">
+                <h1 class="text-center">Contact Me</h1>
+                <div class="row mt-4">
+                    <div class="col-lg-6">
+                        <div style="overflow:hidden;max-width:100%;width:500px;height:500px;">
+                            <div id="google-maps-display" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=150+Parkshore+Drive,+Folsom,+CA,+USA&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div>
+                            <a class="embedded-map-code" href="https://kbj9qpmy.com/bp" id="enable-map-data">Internet Provider</a>
+                            <style>#google-maps-display img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}</style>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <!-- form fields -->
+                        <form onsubmit="sendEmail(); return false;">
+                            <input type="text" id="name" class="form-control form-control-lg" placeholder="Name">
+                            <input type="email" id="email" class="form-control mt-3" placeholder="Email">
+                            <input type="text" id="phone" class="form-control mt-3" placeholder="Phone Number">
+                            <div class="mb-3 mt-3">
+                                <textarea class="form-control" rows="5" id="message" name="text" placeholder="This feature is currently under development. Email functionality is not working (yet). Contact me at jmobriencs@gmail.com or click the LinkedIn icon below in the footer."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-success mt-3">Contact JM</button>
+                        </form>
+                    </div>
+                    <script src="https://smtpjs.com/v3/smtp.js"></script>
+                    <script>
+                        function sendEmail() {
+                            Email.send({
+                                Host : "smtp.gmail.com",
+                                Username : "jmobriencs@gmail.com",
+                                Password : "",
+                                To : 'jmobriencs@gmail.com',
+                                From : document.getElementByID("email").value,
+                                Subject : "New Contact From Personal Website",
+                                Body : "Name: " + document.getElementByID("name").value 
+                                    + "<br> Email: " + document.getElementByID("email").value 
+                                    + "<br> Phone: " + document.getElementByID("phone").value 
+                                    + "<br> Message: " + document.getElementByID("message").value 
+                        }).then(
+                          message => alert("Message Sent Successfully")
+                        );
+                    }
+                </script>
+                </div>
+            </div>
+        </section>
+        <!-- footer section-->
+        <footer id="footer">
+            <div class="container-fluid">
+                <!-- social media icons -->
+                <div class="social-icons mt-4">
+                    <a href="https://www.linkedin.com/in/jmobrienmusic/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/jmobriencs" target="_blank"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
