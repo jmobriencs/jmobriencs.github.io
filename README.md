@@ -22,10 +22,10 @@ I'm a programmer by day 🖥️, crafting elegant solutions to complex problems,
 
 ## Features
 
-- **Music Showcase**: Dive into my world of melodies with a collection of my original compositions and covers.
-- **Portfolio**: Explore my programming projects, from web development to software engineering.
-- **Blog**: Follow my journey through insightful articles where I share my thoughts on tech, music, and life.
-- **Contact**: Reach out to me directly through the website to collaborate on projects or discuss music.
+- **Programming Projects**: Dive into some of my recent projects, all linked on my github.
+- **Music Portfolio**: Explore my music portfolio, including some arrangements, transcriptions, and tracks I've made over the years.
+- **Performances**: Take a look at some of my performances, including my undergraduate senior recital at CSULB.
+- **Contact**: Reach out to me directly at jmobriencs@gmail.com to collab on programming and jmobrienmusic@gmail.com for music!
 
 ## Setup and Usage
 
