@@ -29,7 +29,7 @@ I'm a programmer by day 🖥️, crafting elegant solutions to complex problems,
 
 ## Setup and Usage
 
-1. Clone this repository: `git clone https://github.com/[your-username]/[your-repository].git`
+1. Clone this repository: `git clone https://github.com/jmobriencs/jmobriencs.github.io`
 2. Open `index.html` in your favorite web browser.
 3. Explore the website and enjoy the experience!
 4. Feel free to borrow the source code to assist in creating your own personal website!
